@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+  }
+  body {
+    background-color: rgb(187, 125, 83);
+    margin-top: 20px;
+    margin: top 200px;
+    text-align: center;
+    color: rgb(29, 36, 92);
+  }
+  .container {
+    width: 370px;
+
+  }
+  .result {
+    width: 59.1%;
+    margin-top: 100px;
+  }
+  input {
+    padding: 25px;
+    color: rgb(17, 16, 16);
+    font-size: 1em;
+    cursor: pointer;
+    width: 70px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  .first-row,
+  .second-row,
+  .third-row,
+  .fourth-row,
+  .fifth-row {
+    margin-bottom: 3px;
+  }
+  input[type="text"] {
+    background-color: rgb(255, 255, 255);
+  }
+  input[type="button"]:hover {
+    background-color: rgb(37, 35, 59);
+    color: #fff;
+  }
+  .clear {
+    color: #fff;
+    background-color: rgb(255, 42, 42);
+  }
+  button {
+    border: none;
+    background-color: rgb(41, 38, 38);
+    padding: 10px;
+    color: white;
+    margin: 2px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+  }
+  
+  button a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .bottom-buttons {
+    float: left;
+    margin-left: 10%;
+    margin-top: 0.7%;
+  }
+  
+  @media (max-width: 640px) {
+    h1 {
+      margin-top: 15vh;
+    }
+  }
